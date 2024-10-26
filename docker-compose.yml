@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: powertop-visualizer:latest
+    container_name: powertop-visualizer
+    ports:
+      - "4173:4173"
+    environment:
+      - NODE_ENV=production
+    restart: always

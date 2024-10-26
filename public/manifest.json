@@ -1,0 +1,17 @@
+{
+  "name": "PowerTop Visualizer",
+  "short_name": "PowerTop",
+  "description": "Visualize your system's power consumption",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#111827",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+____________________________________________________________________
+			P o w e r T O P
+
+____________________________________________________________________
+ *  *  *   System Information   *  *  *
+
+PowerTOP Version;2.14 ran at Sat Oct 26 10:20:09 2024
+
+Kernel Version;Linux version 6.8.12-2-pve
+System Name;Dell Inc.096JG8
+CPU Information;4 Intel(R) Core(TM) i5-6500TE CPU @ 2.30GHz
+OS Information;Debian GNU/Linux 12 (bookworm)
+
+Target: 1 units/s;System:  771.9 wakeup/s;CPU:  9.3% usage;GPU: 0 ops/s;GFX: 0 wakeups/s;VFS: 0 ops/s;
+
+____________________________________________________________________
+ *  *  *   Top 10 Power Consumers   *  *  *
+
+Usage;Events/s;Category;Description
+  0.3%;250.8;Timer;tick_nohz_highres_handler
+  0.5%;119.5;Process;[PID 12816] /usr/bin/kvm -id 1000 -name WindowsXI,debug-threads=on -no-shutdown -chardev socket,id=qmp,path=/var/run/qemu-serve
+  0.3%;103.8;Timer;stimer_timer_callback
+  0.3%;100.2;Timer;hrtimer_wakeup
+  0.0%; 27.9;Process;[PID 1476842] /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=4
+  0.0%; 17.2;Process;[PID 1477721] /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=4
+  0.4%; 10.4;Interrupt;[3] net_rx(softirq)
+  0.2%;  7.2;Process;[PID 12817] /usr/bin/kvm -id 1000 -name WindowsXI,debug-threads=on -no-shutdown -chardev socket,id=qmp,path=/var/run/qemu-serve
+  0.0%;  7.6;Timer;apic_timer_fn
+  1.5%;  0.9;kWork;loop_rootcg_workfn
+
+____________________________________________________________________
+ *  *  *   Processor Idle State Report   *  *  *
+
+Package;0
+C2 (pc2); 15.6%
+C3 (pc3); 32.7%
+C6 (pc6);  0.0%
+C7 (pc7);  0.0%
+C8 (pc8);  0.0%
+C9 (pc9);  0.0%
+C10 (pc10);  0.0%
+;
+;
+;
+
+;Core 0
+C3 (cc3);  2.0%
+C6 (cc6); 22.9%
+C7 (cc7); 55.7%
+;Core 1
+C3 (cc3);  1.2%
+C6 (cc6); 20.0%
+C7 (cc7); 57.3%
+;Core 2
+C3 (cc3);  2.1%
+C6 (cc6); 25.1%
+C7 (cc7); 55.7%
+;Core 3
+C3 (cc3);  1.5%
+C6 (cc6); 29.3%
+C7 (cc7); 50.7%
+
+CPU;0
+C0 active;  9.3%;
+POLL;  0.0%;   0.0 ms
+C1;  0.6%;   0.1 ms
+C1E;  4.7%;   0.1 ms
+C3;  2.8%;   0.2 ms
+C6; 25.9%;   0.6 ms
+C7s;  0.3%;   1.5 ms
+C8; 56.8%;   1.9 ms
+;
+;
+CPU;1
+C0 active; 12.8%;
+POLL;  0.0%;   0.0 ms
+C1;  0.8%;   0.1 ms
+C1E;  4.4%;   0.1 ms
+C3;  1.7%;   0.2 ms
+C6; 22.8%;   0.6 ms
+C7s;  0.2%;   2.6 ms
+C8; 58.6%;   2.4 ms
+;
+;
+CPU;2
+C0 active;  9.4%;
+POLL;  0.0%;   0.0 ms
+C1;  0.4%;   0.1 ms
+C1E;  2.4%;   0.1 ms
+C3;  3.1%;   0.2 ms
+C6; 28.6%;   0.6 ms
+C7s;  0.2%;   1.6 ms
+C8; 56.6%;   2.8 ms
+;
+;
+CPU;3
+C0 active; 11.0%;
+POLL;  0.0%;   0.0 ms
+C1;  0.4%;   0.1 ms
+C1E;  1.9%;   0.1 ms
+C3;  2.2%;   0.2 ms
+C6; 33.6%;   0.6 ms
+C7s;  0.0%;   0.6 ms
+C8; 51.7%;   2.8 ms
+;
+;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+
+____________________________________________________________________
+ *  *  *   Processor Frequency Report   *  *  *
+
+Package;0
+Idle;
+3.31 GHz;
+;
+;
+;
+
+;Core 0
+Idle;
+3.31 GHz;
+;Core 1
+Idle;
+3.31 GHz;
+;Core 2
+Idle;
+3.31 GHz;
+;Core 3
+Idle;
+3.31 GHz;
+
+CPU 0
+Average;3.1 GHz
+Idle;
+3.31 GHz;
+CPU 1
+Average;3.2 GHz
+Idle;
+3.31 GHz;
+CPU 2
+Average;3.2 GHz
+Idle;
+3.31 GHz;
+CPU 3
+Average;3.2 GHz
+Idle;
+3.31 GHz;
+;
+;
+;
+;
+
+____________________________________________________________________
+ *  *  *   Overview of Software Power Consumers   *  *  *
+
+Usage;Wakeups/s;GPU ops/s;Disk IO/s;GFX Wakeups/s;Category;Description
+  2.5 ms/s;250.8;;;;Timer;tick_nohz_highres_handler
+  5.3 ms/s;119.5;;;;Process;[PID 12816] /usr/bin/kvm -id 1000 -name WindowsXI,debug-threads=on -no-shutdown -chardev socket,id=qmp,path=/var/run/qemu-serve
+  2.6 ms/s;103.8;;;;Timer;stimer_timer_callback
+  2.6 ms/s;100.2;;;;Timer;hrtimer_wakeup
+300.7 us/s; 27.9;;;;Process;[PID 1476842] /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=4
+126.8 us/s; 17.2;;;;Process;[PID 1477721] /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=4
+  4.1 ms/s; 10.4;;;;Interrupt;[3] net_rx(softirq)
+  2.4 ms/s;  7.2;;;;Process;[PID 12817] /usr/bin/kvm -id 1000 -name WindowsXI,debug-threads=on -no-shutdown -chardev socket,id=qmp,path=/var/run/qemu-serve
+160.8 us/s;  7.6;;;;Timer;apic_timer_fn
+ 14.9 ms/s;  0.9;;;;kWork;loop_rootcg_workfn
+  2.8 ms/s;  5.2;;;;Process;[PID 12818] /usr/bin/kvm -id 1000 -name WindowsXI,debug-threads=on -no-shutdown -chardev socket,id=qmp,path=/var/run/qemu-serve
+190.4 us/s;  6.0;;;;Process;[PID 3902] cloudflared --no-autoupdate tunnel --no-autoupdate run --token eyJhIjoiYjg5MjgyMDQ5ZmExZjBmZWY4MjI0NWEzYmE3ODM0YWEiL
+106.2 us/s;  5.6;;;;Process;[PID 1420959] /usr/sbin/netdata -P /run/netdata/netdata.pid -D 
+132.2 us/s;  5.6;;;;kWork;psi_avgs_work
+ 74.4 us/s;  5.5;;;;Process;[PID 17] [rcu_preempt]
+ 52.2 us/s;  5.5;;;;Process;[PID 2621] cloudflared --no-autoupdate tunnel --no-autoupdate run --token eyJhIjoiYjg5MjgyMDQ5ZmExZjBmZWY4MjI0NWEzYmE3ODM0YWEiL
+  1.1 ms/s;  5.0;;;;Process;[PID 1252] /usr/sbin/corosync -f 
+684.0 us/s;  3.5;;;;Process;[PID 5142] /usr/bin/kvm -id 400 -name OMV,debug-threads=on -no-shutdown -chardev socket,id=qmp,path=/var/run/qemu-server/400.qm
+  1.4 ms/s;  3.2;;;;Process;[PID 12625] /usr/bin/kvm -id 1000 -name WindowsXI,debug-threads=on -no-shutdown -chardev socket,id=qmp,path=/var/run/qemu-serve
+  0.7 ms/s;  3.4;;;;Process;[PID 5141] /usr/bin/kvm -id 400 -name OMV,debug-threads=on -no-shutdown -chardev socket,id=qmp,path=/var/run/qemu-server/400.qm
+  6.8 ms/s;  0.8;;;;Interrupt;[7] sched(softirq)
+  7.5 ms/s; 0.20;;;;Process;[PID 1307] pvestatd 
+ 26.0 us/s;  3.0;;;;Process;[PID 1421038] /usr/libexec/netdata/plugins.d/go.d.plugin 1 
+ 21.3 us/s;  2.8;;;;Timer;pit_timer_fn
+ 23.3 us/s;  2.6;;;;Process;[PID 5008] /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock 
+ 43.7 us/s;  2.2;;;;Process;[PID 14760] /usr/local/bin/minio server --console-address :9001 /mnt/host-vm-storage 
+ 93.4 us/s;  2.1;;;;Process;[PID 14937] /usr/local/bin/minio server --console-address :9001 /mnt/host-vm-storage 
+ 39.4 us/s;  2.1;;;;Process;[PID 1421007] /usr/libexec/netdata/plugins.d/network-viewer.plugin 1 
+ 46.9 us/s;  2.0;;;;Process;[PID 1421003] /usr/libexec/netdata/plugins.d/systemd-journal.plugin 1 
+325.4 us/s;  1.8;;;;Process;[PID 1476870] /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=4
+691.0 us/s;  1.5;;;;Process;[PID 1843067] /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=4
+ 56.6 us/s;  1.7;;;;kWork;delayed_vfree_work
+ 76.4 us/s;  1.6;;;;Interrupt;[4] block(softirq)
+ 25.7 us/s;  1.5;;;;kWork;blk_mq_requeue_work
+  3.3 ms/s; 0.05;;;;Process;[PID 1420984] /usr/libexec/netdata/plugins.d/apps.plugin 1 
+535.2 us/s;  1.1;;;;Process;[PID 1476866] /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=4
+  1.7 ms/s;  0.6;;;;kWork;wb_workfn
+139.7 us/s;  1.1;;;;Process;[PID 8091] redis-server *:6379 
+ 26.5 us/s;  1.1;;;;Process;[PID 10118] containerd --config /var/run/docker/containerd/containerd.toml 
+ 24.8 us/s;  1.1;;;;Process;[PID 1420982] /usr/sbin/netdata -P /run/netdata/netdata.pid -D 
+130.1 us/s;  1.0;;;;Process;[PID 5650] redis-server *:6379 
+ 22.1 us/s;  1.0;;;;Process;[PID 1421082] /usr/libexec/netdata/plugins.d/ebpf.plugin 1 
+ 26.0 us/s;  1.0;;;;Process;[PID 1420967] /usr/sbin/netdata -P /run/netdata/netdata.pid -D 
+471.9 us/s;  0.8;;;;Process;[PID 1774103] /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=4
+ 41.2 us/s;  0.9;;;;Process;[PID 201919] /usr/bin/containerd 
+ 31.4 us/s;  0.9;;;;Process;[PID 1420999] /usr/sbin/netdata -P /run/netdata/netdata.pid -D 
+ 17.8 us/s;  0.9;;;;Process;[PID 12696] /usr/bin/containerd 
+ 94.8 us/s;  0.9;;;;Process;[PID 50122] /usr/bin/containerd 
+ 27.2 us/s;  0.9;;;;Process;[PID 1420981] /usr/sbin/netdata -P /run/netdata/netdata.pid -D 
+  6.7 us/s;  0.9;;;;kWork;iomap_dio_complete_work
+  0.8 ms/s;  0.6;;;;Process;[PID 1527025] /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=4
+ 22.4 us/s;  0.8;;;;Process;[PID 1421012] /usr/libexec/netdata/plugins.d/apps.plugin 1 
+ 20.2 us/s;  0.8;;;;Process;[PID 4925] /usr/bin/containerd 
+ 20.9 us/s;  0.8;;;;Process;[PID 1420991] /usr/sbin/netdata -P /run/netdata/netdata.pid -D 
+ 15.1 us/s;  0.8;;;;Process;[PID 1420962] /usr/sbin/netdata -P /run/netdata/netdata.pid -D 
+327.3 us/s;  0.6;;;;Process;[PID 1420966] /usr/sbin/netdata -P /run/netdata/netdata.pid -D 
+ 24.6 us/s;  0.7;;;;Process;[PID 1420996] /usr/sbin/netdata -P /run/netdata/netdata.pid -D 
+ 23.3 us/s;  0.7;;;;Process;[PID 1420983] /usr/sbin/netdata -P /run/netdata/netdata.pid -D 
+ 21.7 us/s;  0.7;;;;Process;[PID 1420997] /usr/sbin/netdata -P /run/netdata/netdata.pid -D 
+ 13.6 us/s;  0.7;;;;Process;[PID 6889] /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock 
+102.9 us/s;  0.7;;;;Process;[PID 1421000] /usr/sbin/netdata -P /run/netdata/netdata.pid -D 
+  1.5 ms/s; 0.15;;;;Process;[PID 1297] pve-firewall 
+ 33.3 us/s;  0.7;;;;Process;[PID 1421001] /usr/sbin/netdata -P /run/netdata/netdata.pid -D 
+ 18.8 us/s;  0.7;;;;Process;[PID 1421018] /usr/libexec/netdata/plugins.d/systemd-journal.plugin 1 
+ 16.1 us/s;  0.7;;;;Process;[PID 6839] /usr/bin/containerd 
+ 62.5 us/s;  0.6;;;;Process;[PID 503320] cloudflared --no-autoupdate tunnel --no-autoupdate run --token eyJhIjoiYjg5MjgyMDQ5ZmExZjBmZWY4MjI0NWEzYmE3ODM0YWE
+ 24.3 us/s;  0.6;;;;Process;[PID 3225] /usr/bin/containerd 
+ 10.8 us/s;  0.6;;;;Process;[PID 1273] /usr/sbin/corosync -f 
+114.1 us/s;  0.5;;;;Process;[PID 1421288] /usr/libexec/netdata/plugins.d/go.d.plugin 1 
+108.6 us/s;  0.5;;;;Process;[PID 10119] containerd --config /var/run/docker/containerd/containerd.toml 
+  1.3 ms/s;;;;;Process;[PID 3108086] runc:[2:INIT]
+ 23.6 us/s;  0.5;;;;Process;[PID 1420994] /usr/sbin/netdata -P /run/netdata/netdata.pid -D 
+ 12.9 us/s;  0.5;;;;Process;[PID 1881] /usr/bin/containerd 
+  5.4 us/s;  0.5;;;;Process;[PID 2532] /opt/adguardhome/AdGuardHome --no-check-update -c /opt/adguardhome/conf/AdGuardHome.yaml -w /opt/adguardhome/work 
+  3.4 us/s;  0.5;;;;kWork;wb_update_bandwidth_workfn
+  1.0 ms/s; 0.10;;;;Process;[PID 1420975] /usr/sbin/netdata -P /run/netdata/netdata.pid -D 
+ 51.3 us/s;  0.4;;;;Process;[PID 503321] cloudflared --no-autoupdate tunnel --no-autoupdate run --token eyJhIjoiYjg5MjgyMDQ5ZmExZjBmZWY4MjI0NWEzYmE3ODM0YWE
+ 27.3 us/s;  0.4;;;;kWork;loop_workfn
+ 17.5 us/s;  0.4;;;;Process;[PID 12834] [kvm-pit/12625]
+  6.6 us/s;  0.4;;;;Process;[PID 1269] /usr/sbin/corosync -f 
+ 41.4 us/s;  0.4;;;;Process;[PID 2751] cloudflared --no-autoupdate tunnel --no-autoupdate run --token eyJhIjoiYjg5MjgyMDQ5ZmExZjBmZWY4MjI0NWEzYmE3ODM0YWEiL
+ 40.3 us/s;  0.4;;;;Process;[PID 1477755] /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=4
+  0.8 ms/s; 0.10;;;;Process;[PID 363513] /root/Project/P4/myenv/bin/python3 app.py 
+ 24.8 us/s;  0.4;;;;Process;[PID 3806] /usr/bin/containerd 
+ 11.4 us/s;  0.4;;;;kWork;dm_wq_work
+  1.0 ms/s;;;;;Interrupt;[9] RCU(softirq)
+  0.9 ms/s;;;;;Process;[PID 3108125] runc:[2:INIT]
+ 28.4 us/s;  0.3;;;;Process;[PID 8231] /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock 
+ 23.3 us/s;  0.3;;;;Process;[PID 2398] /usr/bin/containerd 
+141.3 us/s; 0.30;;;;Process;[PID 1249] /usr/bin/pmxcfs 
+ 13.9 us/s;  0.3;;;;Process;[PID 401308] ./qdrant 
+  0.8 ms/s;;;;;Process;[PID 3108126] runc:[2:INIT]
+ 62.8 us/s; 0.30;;;;Process;[PID 1497399] /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=4
+ 20.2 us/s; 0.30;;;;Process;[PID 6964] /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock 
+ 14.8 us/s; 0.30;;;;Process;[PID 1882] /usr/bin/containerd 
+ 11.0 us/s; 0.30;;;;Process;[PID 36] [ksoftirqd/3]
+  8.0 us/s; 0.30;;;;Process;[PID 1421005] /usr/libexec/netdata/plugins.d/ebpf.plugin 1 
+  1.7 us/s; 0.30;;;;Timer;watchdog_timer_fn
+ 25.3 us/s; 0.25;;;;Interrupt;[133] nvme0q2
+ 17.8 us/s; 0.25;;;;Process;[PID 3226] /usr/bin/containerd 
+
+____________________________________________________________________
+ *  *  *   Device Power Report   *  *  *
+
+Usage;Device Name
+  9.3%;CPU core
+  9.3%;CPU misc
+  9.3%;DRAM
+157.1 pkts/s;Network interface: enp0s31f6 (e1000e)
+125.0 pkts/s;nic:veth101i0
+125.0 pkts/s;nic:fwpr101p0
+125.0 pkts/s;nic:fwln101i0
+100.0%;PCI Device: Intel Corporation 100 Series/C230 Series Chipset Family Thermal Subsystem
+100.0%;PCI Device: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
+100.0%;PCI Device: Intel Corporation 100 Series/C230 Series Chipset Family PCI Express Root Port #17
+100.0%;PCI Device: Intel Corporation Q170 Chipset LPC/eSPI Controller
+100.0%;PCI Device: Intel Corporation 100 Series/C230 Series Chipset Family Power Management Controller
+100.0%;PCI Device: Intel Corporation Q170/Q150/B150/H170/H110/Z170/CM236 Chipset SATA Controller [AHCI Mode]
+100.0%;PCI Device: Intel Corporation HD Graphics 530
+100.0%;PCI Device: Intel Corporation 100 Series/C230 Series Chipset Family USB 3.0 xHCI Controller
+100.0%;PCI Device: Samsung Electronics Co Ltd NVMe SSD Controller 980
+100.0%;PCI Device: Intel Corporation Ethernet Connection (2) I219-LM
+ 19.4 pkts/s;nic:fwpr100p0
+ 19.4 pkts/s;nic:fwln100i0
+ 19.4 pkts/s;nic:veth100i0
+  1.3 pkts/s;nic:vmbr0
+  1.1 pkts/s;nic:veth200i0
+  1.1 pkts/s;nic:fwln200i0
+  1.1 pkts/s;nic:fwpr200p0
+  0.4 pkts/s;nic:fwpr400p0
+  0.4 pkts/s;nic:tap1000i0
+  0.4 pkts/s;nic:fwpr1000p0
+  0.4 pkts/s;nic:fwln1000i0
+  0.4 pkts/s;nic:tap400i0
+  0.4 pkts/s;nic:fwln400i0
+  0.2 pkts/s;nic:fwln304i0
+  0.2 pkts/s;nic:veth304i0
+  0.2 pkts/s;nic:fwbr400i0
+  0.2 pkts/s;nic:veth301i0
+  0.2 pkts/s;nic:fwbr101i0
+  0.2 pkts/s;nic:fwln502i0
+  0.2 pkts/s;nic:fwpr502p0
+  0.2 pkts/s;nic:fwbr502i0
+  0.2 pkts/s;nic:veth302i0
+  0.2 pkts/s;nic:fwpr304p0
+  0.2 pkts/s;nic:fwbr304i0
+  0.2 pkts/s;nic:fwln302i0
+  0.2 pkts/s;nic:fwbr200i0
+  0.2 pkts/s;nic:fwbr100i0
+  0.2 pkts/s;nic:fwpr302p0
+  0.2 pkts/s;nic:fwbr1000i0
+  0.2 pkts/s;nic:veth502i0
+  0.2 pkts/s;nic:fwbr302i0
+  0.0%;PCI Device: Intel Corporation 100 Series/C230 Series Chipset Family HD Audio Controller
+  0.0%;runtime-PNP0C0B:03
+  0.0%;runtime-kgdboc
+  0.0%;runtime-acpi-cpufreq
+  0.0%;runtime-INT33A1:00
+  0.0%;PCI Device: Intel Corporation 6th-10th Gen Core Processor PCIe Controller (x16)
+  0.0%;runtime-PNP0C14:00
+  0.0%;PCI Device: Intel Corporation 100 Series/C230 Series Chipset Family SMBus
+  0.0%;USB device: xHCI Host Controller
+  0.0%;runtime-dell-smbios.1
+  0.0%;Audio codec hwC0D2: Intel
+  0.0%;Audio codec hwC0D0: Realtek
+  0.0%;runtime-iTCO_wdt
+  0.0%;runtime-PNP0C0B:01
+  0.0%;runtime-alarmtimer.0.auto
+  0.0%;runtime-INT0800:00
+  0.0%;runtime-eisa.0
+  0.0%;runtime-microcode
+  0.0%;runtime-snd-soc-dummy
+  0.0%;runtime-intel_rapl_msr.0
+  0.0%;runtime-Fixed MDIO bus.0
+  0.0%;runtime-PNP0C0C:00
+  0.0%;runtime-dcdbas
+  0.0 pkts/s;nic:bonding_masters
+  0.0%;runtime-MSFT0101:00
+  0.0%;runtime-PNP0C0E:00
+  0.0%;runtime-regulatory.0
+  0.0%;runtime-coretemp.0
+  0.0%;runtime-PNP0C0B:02
+  0.0%;runtime-PNP0C0B:04
+  0.0%;USB device: xHCI Host Controller
+  0.0%;runtime-rtc-efi.0
+  0.0%;runtime-ACPI000C:00
+  0.0%;runtime-PNP0103:00
+  0.0%;runtime-dell-smbios.0
+  0.0%;runtime-PNP0C04:00
+  0.0%;runtime-efivars.0
+  0.0%;runtime-serial8250
+  0.0%;runtime-pcspkr
+  0.0%;I2C Device (0-0050): ee1004
+  0.0%;I2C Device (0-0037): dummy
+  0.0%;I2C Adapter (i2c-0): SMBus I801 adapter at f040
+  0.0%;I2C Device (0-0036): dummy
+  0.0%;runtime-PNP0C0B:00
+  0.0%;runtime-reg-dummy
+____________________________________________________________________
+ *  *  *   Process Device Activity   *  *  *
+
+Process;Device
+systemd;/dev/autofs
+;/dev/kmsg
+;/dev/rfkill
+systemd-journal;/dev/kmsg
+;/dev/kmsg
+systemd-logind;/dev/input/event0
+;/dev/input/event1
+;/dev/input/event2
+watchdog-mux;/dev/watchdog
+zed;/dev/zfs
+;/dev/zfs
+;/dev/zfs
+;/dev/zfs
+;/dev/zfs
+;/dev/zfs
+lxcfs;/dev/fuse
+pmxcfs;/dev/fuse
+lxc-start;/dev/pts
+;/dev/pts
+agetty;/dev/console
+;/dev/console
+;/dev/console
+lxc-start;/dev/pts
+agetty;/dev/console
+;/dev/console
+;/dev/console
+;/dev/console
+;/dev/console
+;/dev/console
+kvm;/dev/kvm
+;/dev/net/tun
+;/dev/vhost-net
+lxc-start;/dev/pts
+;/dev/pts
+agetty;/dev/console
+;/dev/console
+;/dev/console
+lxc-start;/dev/pts
+getty;/dev/console
+;/dev/console
+;/dev/console
+lxc-start;/dev/pts
+agetty;/dev/console
+;/dev/console
+;/dev/console
+kvm;/dev/kvm
+;/dev/net/tun
+;/dev/vfio/0
+;/dev/vfio/vfio
+;/dev/vhost-net
+agetty;/dev/console
+;/dev/console
+;/dev/console
+tailscaled;/dev/net/tun
+;/dev/net/tun
+
+____________________________________________________________________
+ *  *  *   AHCI ALPM Residency Statistics - Not supported on this macine   *  *  *
+
+____________________________________________________________________
+ *  *  *   Software Settings in Need of Tuning   *  *  *
+
+Description;Script
+VM writeback timeout;echo '1500' > '/proc/sys/vm/dirty_writeback_centisecs';
+Enable SATA link power management for host3;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host3/link_power_management_policy';
+Enable SATA link power management for host1;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host1/link_power_management_policy';
+Enable SATA link power management for host2;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host2/link_power_management_policy';
+Enable SATA link power management for host0;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host0/link_power_management_policy';
+NMI watchdog should be turned off;echo '0' > '/proc/sys/kernel/nmi_watchdog';
+Runtime PM for port ata3 of PCI device: Intel Corporation Q170/Q150/B150/H170/H110/Z170/CM236 Chipset SATA Controller [AHCI Mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:17.0/ata3/power/control';
+Runtime PM for PCI Device Intel Corporation Q170/Q150/B150/H170/H110/Z170/CM236 Chipset SATA Controller [AHCI Mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:17.0/power/control';
+Runtime PM for port ata1 of PCI device: Intel Corporation Q170/Q150/B150/H170/H110/Z170/CM236 Chipset SATA Controller [AHCI Mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:17.0/ata1/power/control';
+Runtime PM for port ata2 of PCI device: Intel Corporation Q170/Q150/B150/H170/H110/Z170/CM236 Chipset SATA Controller [AHCI Mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:17.0/ata2/power/control';
+Runtime PM for PCI Device Intel Corporation 100 Series/C230 Series Chipset Family Power Management Controller;echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.2/power/control';
+Runtime PM for PCI Device Intel Corporation Q170 Chipset LPC/eSPI Controller;echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.0/power/control';
+Runtime PM for PCI Device Samsung Electronics Co Ltd NVMe SSD Controller 980;echo 'auto' > '/sys/bus/pci/devices/0000:02:00.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers;echo 'auto' > '/sys/bus/pci/devices/0000:00:00.0/power/control';
+Runtime PM for PCI Device Intel Corporation 100 Series/C230 Series Chipset Family Thermal Subsystem;echo 'auto' > '/sys/bus/pci/devices/0000:00:14.2/power/control';
+Runtime PM for port ata4 of PCI device: Intel Corporation Q170/Q150/B150/H170/H110/Z170/CM236 Chipset SATA Controller [AHCI Mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:17.0/ata4/power/control';
+Runtime PM for PCI Device Intel Corporation Ethernet Connection (2) I219-LM;echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.6/power/control';
+Runtime PM for PCI Device Intel Corporation 100 Series/C230 Series Chipset Family USB 3.0 xHCI Controller;echo 'auto' > '/sys/bus/pci/devices/0000:00:14.0/power/control';
+Runtime PM for disk sda;echo 'auto' > '/sys/block/sda/device/power/control';
+____________________________________________________________________
+ *  *  *   Untunable Software Issues   *  *  *
+
+Description
+I2C Device 0-0050 has no runtime power management
+I2C Device 0-0037 has no runtime power management
+I2C Device 0-0036 has no runtime power management
+____________________________________________________________________
+ *  *  *   Optimal Tuned Software Settings   *  *  *
+
+Description
+Enable Audio codec power management
+Autosuspend for USB device xHCI Host Controller [usb1]
+Autosuspend for USB device xHCI Host Controller [usb2]
+Runtime PM for I2C Adapter i2c-0 (SMBus I801 adapter at f040)
+Runtime PM for PCI Device Intel Corporation 6th-10th Gen Core Processor PCIe Controller (x16)
+Runtime PM for PCI Device Intel Corporation 100 Series/C230 Series Chipset Family PCI Express Root Port #17
+Runtime PM for PCI Device Intel Corporation 100 Series/C230 Series Chipset Family HD Audio Controller
+Runtime PM for PCI Device Intel Corporation HD Graphics 530
+Runtime PM for PCI Device Intel Corporation 100 Series/C230 Series Chipset Family SMBus
+
+____________________________________________________________________
+ *  *  *   Wake status of the devices   *  *  *
+
+Description;Script
+Wake status for USB device usb1;echo 'enabled' > '/sys/bus/usb/devices/usb1/power/wakeup';
+Wake status for USB device usb2;echo 'enabled' > '/sys/bus/usb/devices/usb2/power/wakeup';
